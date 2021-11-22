@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="public/Assets/css/main.css">
+
+  <title>RyanBelme Bootstrap</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 pt-4 text-white-50" href="#">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="#3751FF" />
+            <path
+              d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z"
+              fill="url(#paint0_linear_0_1)" />
+            <defs>
+              <linearGradient id="paint0_linear_0_1" x1="11" y1="9" x2="23" y2="23" gradientUnits="userSpaceOnUse">
+                <stop stop-color="white" stop-opacity="0.7" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+            </defs>
+          </svg>
+
+          Dashboard Kit</a>
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column border-bottom">
+            <li class="nav-item bg-secondary width-100">
+              <a class="nav-link active text-white" aria-current="page" href="#">
+                <span data-feather="home" class="pr-2"><img src="/Assets/images/Overview.svg" alt=""></span>
+                Overview
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">
+                <span data-feather="file" class="pr-2"><img src="/Assets/images/Vector.svg" alt=""></span>
+                Tickets
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">
+                <span data-feather="shopping-cart" class="pr-2"><img src="/Assets/images/Vector-1.svg" alt=""></span>
+                Ideas
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">
+                <span data-feather="users" class="pr-2"><img src="/Assets/images/Vector-2.svg" alt=""></span>
+                Contacts
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">
+                <span data-feather="bar-chart-2" class="pr-2"><img src="/Assets/images/Vector-3.svg" alt=""></span>
+                Agents
+              </a>
+            </li>
+            <li class="nav-item pb-4">
+              <a class="nav-link text-white-50" href="#">
+                <span data-feather="layers" class="pr-2"><img src="/Assets/images/Vector-4.svg" alt=""></span>
+                Articles
+              </a>
+            </li>
+          </ul>
+          <ul class="nav flex-column mb-2">
+            <li class="nav-item pt-4">
+              <a class="nav-link text-white-50" href="#">
+                <span data-feather="file-text" class="pr-2"><img src="/Assets/images/Vector-5.svg" alt=""></span>
+                Settings
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">
+                <span data-feather="file-text" class="pr-2"><img src="/Assets/images/Vector-6.svg" alt=""></span>
+                Membership
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 bg-light">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+          <h1 class="h4">Overview</h1>
+          <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group me-2 border-right">
+              <svg class="mt-2 mr-4" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6.5" cy="6.5" r="5.75" stroke="#C5C7CD" stroke-width="1.5" />
+                <path d="M11 11L15 15" stroke="#C5C7CD" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+
+              <svg class="mt-2 mr-4" width="17" height="19" viewBox="0 0 17 19" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.99999 19C8.10374 19 8.99905 18.1047 8.99905 17H5.00093C5.00093 18.1047 5.89624 19 6.99999 19ZM13.7309 14.3216C13.1272 13.6728 11.9975 12.6969 11.9975 9.5C11.9975 7.07188 10.295 5.12812 7.99937 4.65125V4C7.99937 3.44781 7.55187 3 6.99999 3C6.44812 3 6.00062 3.44781 6.00062 4V4.65125C3.70499 5.12812 2.00249 7.07188 2.00249 9.5C2.00249 12.6969 0.872804 13.6728 0.269054 14.3216C0.0815536 14.5231 -0.00157141 14.7641 -8.9117e-06 15C0.00342859 15.5125 0.405616 16 1.00312 16H12.9969C13.5944 16 13.9969 15.5125 14 15C14.0016 14.7641 13.9184 14.5228 13.7309 14.3216Z"
+                  fill="#C5C7CD" />
+                <circle cx="12" cy="5" r="3.75" fill="#3751FF" stroke="#F7F8FC" stroke-width="1.5" />
+              </svg>
+            </div>
+            <p class="ml-4">
+              Jones Ferdinand
+              <span class="pl-2" data-feather="calendar"><img class="border border-2 rounded-circle"
+                  src="/Assets/images/m header.jpg" alt=""></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="container justify-content-between-space-around">
+          <div class="row">
+            <div class="col-lg col-md col-sm-12 bg-white border rounded text-center mr-3">
+              <h2 class="h6 text-black-50 pt-2">Unresolved</h2>
+              <h1>60</h1>
+            </div>
+            <div
+              class="col-lg col-md col-sm-12 bg-white border rounded border-primary text-center text-primary ml-3 mr-3">
+              <h2 class="h6 pt-2">Overdue</h2>
+              <h1>16</h1>
+            </div>
+            <div class="col-lg col-md col-sm-12 bg-white border rounded text-center ml-3 mr-3">
+              <h2 class="text-black-50 h6 pt-2">Open</h2>
+              <h1>43</h1>
+            </div>
+            <div class="col-lg col-md col-sm-12 bg-white border rounded text-center ml-1">
+              <h2 class="text-black-50 h6 pt-2">On Hold</h2>
+              <h1>64</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-4 bg-white border rounded">
+          <div class="row">
+            <div class="col-lg-8 col-sm-12">
+              <h5 class="pt-4">Today's trends</h5>
+              <p class="fs-6 pb-5 text-black-50 d-flex justify-content-between">as of 25 May 2019, 09:41 PM <span
+                  class="text-primary">Today</span><span>Yesterday</span></p>
+              <img src="/Assets/images/full graph.svg" width="100%" alt="">
+
+            </div>
+            <div class="col-lg-4 col-sm-12 border-left text-center">
+              <h6 class="pt-4 text-black-50">Resolved</h6>
+              <h4 class="border-bottom pb-4">449</h4>
+              <h6 class="pt-4 text-black-50">Received</h6>
+              <h4 class="border-bottom pb-4">426</h4>
+              <h6 class="pt-4 text-black-50">Average first response time</h6>
+              <h4 class="border-bottom pb-4">33m</h4>
+              <h6 class="pt-4 text-black-50">Average response time</h6>
+              <h4 class="border-bottom pb-4">3h 8m</h4>
+              <h6 class="pt-4 text-black-50">Resolution within SLA</h6>
+              <h4 class="pb-4">94%</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="container bg-white mt-4 mb-4">
+          <div class="row">
+            <div class="col-lg col-md-12 border rounded mr-3">
+              <h5 class="pt-4 d-flex justify-content-between">Unresolved tickets<span class="text-primary h6">View
+                  details</span></h5>
+              <p class="pb-4 text-black-50">Group:<span> Support</span></p>
+              <h6 class="border-bottom pb-3 d-flex justify-content-between">Waiting on Feature Request<span
+                  class="text-black-50">4238</span></h6>
+              <h6 class="border-bottom pt-3 pb-3 d-flex justify-content-between">Awaiting Customer Response<span
+                  class="text-black-50">1005</span></h6>
+              <h6 class="border-bottom pt-3 pb-3 d-flex justify-content-between">Awaiting Developer Fix<span
+                  class="text-black-50">914</span></h6>
+              <h6 class="pt-3 pb-3 d-flex justify-content-between">Pending<span class="text-black-50">281</span></h6>
+
+            </div>
+            <div class="col-lg col-md-12 border rounded ml-lg-3">
+              <h5 class="pt-4 d-flex justify-content-between">Tasks <span class="text-primary h6">View all</span></h5>
+              <p class="pb-4 text-black-50">Today</p>
+              <h6 class="border-bottom pb-3 d-flex justify-content-between text-black-50 pr-3">Create new task<span
+                  class="badge rounded-pill bg-light text-dark">+</span></h6>
+              <h6 class="border-bottom pt-3 pb-3 d-flex justify-content-between pr-3 pl-3"><input
+                  class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">Finish ticket
+                update <span class="badge bg-warning text-white">URGENT</span></h6>
+              <h6 class="border-bottom pt-3 pb-3 d-flex justify-content-between pr-3 pl-3"><input
+                  class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">Create new ticket
+                example <span class="badge bg-success text-white">NEW</span></h6>
+              <h6 class="pt-3 pb-3 d-flex justify-content-between pr-3 pl-3"><input class="form-check-input"
+                  type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>Update ticket report <span
+                  class="badge bg-light text-black-50">DEFAULT</span></h6>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary mt-5 mb-5 align" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">
+          Super Secret Button CLICK ME!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-primary" id="exampleModalLabel">Hello There!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-success">
+                I see you have found the super secret modal window! Your prize is a smile :)
+                <img src="/Assets/images/252-2523354_mike-wazowski-shrek-hd-png-download.png" width="100%" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </main>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
